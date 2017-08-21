@@ -1,0 +1,149 @@
+/* colors */
+.white-bg{
+	background: #fff;
+}
+.off-white-bg{
+	background: #f8f8f8;
+}
+.light-purple{
+	color: #8D8FBE;
+}
+.purple{
+	color: #3F51B5;
+}
+/* fonts */
+*{
+	font-family: 'Work Sans', sans-serif;
+}
+/* common css */
+.no-padding{
+	padding: 0px !important;
+}
+/* custom css */
+.main-wrap .main-wrap-row{
+	min-height: 500px;
+}
+.padded-profile-container{
+	padding: 30px 0px;
+}
+.available-status .available-status-green{
+	font-size: 14px;
+	font-weight: 400;
+	margin-left: 17px;
+	position: relative;
+}
+.available-status .available-status-green::before{
+	content: ' ';
+    width: 10px;
+    border-radius: 100%;
+    height: 10px;
+    background: #00E684;
+    position: absolute;
+    left: -17px;
+    top: 6px;
+}
+.profile-image{
+	width: 100%;
+}
+.profile-image .rounded-bottom{
+	border-bottom-right-radius:  1rem !important;
+	border-bottom-left-radius:  1rem !important;
+}
+.profile-name h1{
+	font-size: 50px;
+	margin: 20px 0px;
+}
+.profile-designation p{
+	font-size: 15px;
+	margin-bottom: 5px !important;
+}
+.profile-designation img{
+	margin-top: 20px;
+}
+.work-exp-container{
+	margin-top: 70px;
+}
+.work-counter{
+	font-size: 40px;
+	font-weight: 300;
+	margin-bottom: 0px;
+}
+.work-counter-p{
+	font-size: 14px;
+	margin-bottom: 20px;
+}
+.work-exp-container .badge-pill{
+	border-radius: 3px;
+	padding: 8px 16px !important;
+	background: #8D8FBE !important;
+	text-transform: uppercase;
+	font-weight: 300;
+	margin-bottom: 5px;
+}
+.ruler{
+	margin: 20px 0px;
+}
+.ruler .progress-bar{
+	background-color: #CCC;
+}
+.work-heading{
+	font-size: 12px;
+	margin-top: 20px;
+}
+.btn-wrap{
+	margin-top: 70px;
+	margin-bottom: 40px;
+}
+.btn-primary{
+	background: #3F51B5;
+	border-radius: 0px;
+	text-transform: uppercase;
+	font-weight: 300;
+	font-size: 15px;
+	word-spacing: 6px;
+	padding: .9rem 1rem;
+}
+.projects-each{
+	background: #8D8FBE;
+	border-radius: 10px;
+	width: 100px;
+	height: 100px;
+	float: left;
+	margin: 0px 10px 10px 0px;
+	position: relative;
+}
+.projects-each p{
+	position: absolute;
+	font-size: 12px;
+	bottom: -5px;
+	left: 10px;
+	color:  #fff;
+}
+.projects-each p span{
+	font-size: 35px;
+	display: block;
+}
+.projects-each.projects-each-active{
+	background: #3F51B5;
+	box-shadow: 0px 0px 15px rgba(0, 0, 0, .35);
+}
+.testimonial-each{
+	border-radius: 10px;
+	box-shadow: 0px 0px 15px rgba(0, 0, 0, .15);
+	padding: 15px;
+}
+.testimonial-each .rounded{
+
+}
+.testimonial-each h4{
+	font-size: 18px;
+	font-weight: 300;
+}
+.testimonial-each h6{
+	font-size: 12px;
+	font-weight: 300;
+}
+.testimonial-each p{
+	font-size: 14px;
+	font-weight: 300;
+}
